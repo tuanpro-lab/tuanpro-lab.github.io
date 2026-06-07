@@ -140,6 +140,10 @@ section.page-section{padding:5rem 0;border-top:1px solid var(--border)}
 .tag::before{content:'□';font-size:12px}
 
 /* BAITAP CARDS */
+.file-tree {
+  white-space: pre;      /* giữ nguyên xuống dòng & thụt lề */
+  overflow-x: auto;      /* cuộn ngang nếu dòng quá dài */
+}
 .ex-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
 .ex-card{
   background:var(--bg2);border:1px solid var(--border);border-radius:16px;
